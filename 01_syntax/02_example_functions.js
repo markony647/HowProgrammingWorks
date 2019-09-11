@@ -8,16 +8,16 @@ function greet(name) {
 
 
 for (let i = 15; i <= 30; i++) {
-    if (i % 2 != 0) {
+    if (i % 2 !== 0) {
         console.log(i);
     }
 }
 
 
 function printOddNumbersWithRange(start, end) {
-    console.log(`Odd numbers in range ${start} : ${end}`)
+    console.log(`Odd numbers in range ${start} : ${end}`);
     for (let i = start; i <= end; i++) {
-        if (i % 2 != 0) {
+        if (i % 2 !== 0) {
             console.log(i);
         }
     }
@@ -35,7 +35,7 @@ greet('Pete');
 greet(PETE_NAME);
 
 
-// printOddNumbersWithRange(200, 800);
+printOddNumbersWithRange(5, 11);
 
 console.log(average(12, 20));
 
