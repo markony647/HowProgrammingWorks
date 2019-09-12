@@ -6,7 +6,6 @@ function greet(name) {
     console.log('Hello ' + name + '!');
 }
 
-
 for (let i = 15; i <= 30; i++) {
     if (i % 2 !== 0) {
         console.log(i);
@@ -37,6 +36,10 @@ greet(PETE_NAME);
 
 printOddNumbersWithRange(5, 11);
 
-console.log(average(12, 20));
+console.dir(average(12, 20));
 
 console.log(square(3));
+
+const add = (a, b) => a + b;
+
+console.log(add(3, 5));

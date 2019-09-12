@@ -54,6 +54,10 @@ let phonesHash = {
     'Fldfs Jfe': '380445554433'
 };
 
+console.log(typeof map);
+
+console.log(typeof(phonesHash));
+
 const findPhone = name => {
     return phonesHash[name];
 }
